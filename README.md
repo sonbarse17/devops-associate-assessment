@@ -253,7 +253,7 @@ ls -la .terraform/
 The GitHub Actions workflow in .github/workflows/ci.yml automatically validates Terraform configurations when code is pushed to the main branch or when a pull request is created.
 
 ## Notes
-All AWS resources are tagged with Environment = "DevOpsTest" for easy identification and cleanup.
-The ELK stack is configured to collect logs from /var/log/app.log.
-The CloudWatch alarm triggers when CPU utilization exceeds 80% for 5 consecutive minutes.
-Prometheus is configured to scrape metrics from the EC2 instance every 15 seconds.
+- All AWS resources are tagged with Environment = "DevOpsTest" for easy identification and cleanup.
+- The ELK stack is configured to collect logs from /var/log/app.log.
+- The CloudWatch alarm triggers when CPU utilization exceeds 80% for 5 consecutive minutes.
+- Prometheus is configured to scrape metrics from the EC2 instance every 15 seconds.
