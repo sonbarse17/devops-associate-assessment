@@ -28,3 +28,10 @@ output "public_ip" {
 output "instance_id" {
   value = aws_instance.web.id
 }
+
+#Outputs:
+
+#instance_id = "i-0115b6bb338f97822"
+#public_ip = "54.235.225.66"
+
+
